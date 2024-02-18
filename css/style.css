@@ -1,0 +1,296 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  /* background-color: rgb(255, 0, 0); */
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  margin-left: 80px;
+
+}
+.logo_button{
+  display: flex;
+  /* margin-top: 11px; */
+  border-radius: 9999px;
+  padding: 111px, 23.92px, 12px, 24px;
+  
+}
+.buttons{
+  display: flex;
+  width: 277.19px;
+  border-radius: 8px;
+  height: 48px;
+  top: 16px;
+  left: 16px;
+  background-color:var(--button--bag--color);
+  text-align: center;
+  justify-content: center;
+  color: var(--font--color);
+  font-family: var(--font-style-font-family);
+  align-items: center;
+   
+}
+.logo_button p{
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  
+}
+.logo_button img{
+  width: 30px;
+}
+nav ul{
+  display: flex;
+  width: 440px;
+  gap: 51px;
+  justify-content: center;
+  padding: 0px 0px 0px 100px;
+
+}
+
+nav ul li{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  font-family: var(--font-style-font-family);
+   
+}
+.costomers{
+  display: flex;
+  align-items: center;
+  width: 416px;
+  
+}
+.costomer{
+  display: flex;
+  gap: 10px;
+  padding: 0px 20px 0px 200px;
+}
+
+.container .main_contant{
+  margin: auto;
+  /* height: 300px;  */
+  /* line-height: 390px; */
+  margin-top: 60px;
+  width: 600px;
+}
+.main_contant h2{
+  text-align: center;
+  font-weight: 700;
+  font-size: 90px;
+  font-family: Roboto;
+}
+.box{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 10px;
+}
+.box1{
+  gap: 10px;
+}
+.message_logo{
+  margin-top: 40vh;
+  margin-left: 90vw;
+  position: fixed;
+}
+.bike_logo{
+  margin-top: 20vh;
+  width:100vw;
+  /* background-color: #FFC501; */
+  /* animation: reverse; */
+  height: 65px;
+  animation: bike_animate 10s ease-in-out  infinite  ;
+  animation: name duration timing-function delay iteration-count direction fill-mode;
+
+}
+@keyframes bike_animate{
+  0%{
+    transform:translate(100vw);
+    
+  }
+  100%{
+    transform:translate(-10vw);
+
+  }
+}
+.bike_logo img{
+
+}
+
+.select_option{
+  display: flex;
+  height: 48px;
+  width: 352px;
+  border-radius: 2rem;
+  margin: auto;
+  margin-top: 50px;
+  background-color: #FFF3CC;
+  margin-top: 64px;
+}
+.select_option ul{
+  display: flex;
+  align-items: center;
+  font-family: var(--font-style-font-family);
+  gap: 50px;  
+}
+.select_option ul li{
+  display: flex;
+  list-style: none;
+  align-items: center;
+
+}
+.select1{
+  background-color: #FFC501;
+  height: 48px;
+  width: 8vw;
+  border-radius: 2rem;
+  justify-content: center;
+  /* align-items: center; */
+}
+.try_app{
+  height: 168px;
+  width: 800px;
+  margin: auto;
+  margin-top: 30px; 
+}
+.try_app h2{
+  display: flex;
+  font-weight: 800;
+  font-family: var(--font-style-font-family);
+  font-size: 59px;
+  letter-spacing: -3px;
+  justify-content: center;
+}
+.try_app p{
+  /* display: flex; */
+  width: 500px;
+  height: 80px;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  font-family: var(--font-style-font-family);
+
+}
+.logos2{
+  display: flex;
+  margin: auto;
+  gap: 0px 10px;
+  height: 48px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.mobile{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.join_network{
+  /* display: flex; */
+  margin-top: 15vh;
+  justify-content: center;
+}
+.join_network .heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.join_network .heading p{
+  font-weight: 400;
+  font-size: 64px;
+  font-family: var(--font-style-font-family);
+  letter-spacing: -2px;
+}
+.join_network .heading img{
+  margin-left: 1vw;
+}
+.join_box{
+  /* background-color: red; */
+  /* height: 45px;
+  width: 100px; */
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+
+}
+.join_box .box_{
+  height: 435px;
+  width: 395px;
+  /* background-color: red; */
+  border: 4px solid #000000;
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+  /* display: flex; */
+  /* justify-content: flex-start; */
+}
+
+.join_box .box_1 .star_img{
+  width: 24px;
+  height: 24px;
+  /* margin-left: 24px; */
+  margin-top: 28px;
+}
+.box_1 h3{
+  width: 230px;
+  height: 28px;
+  font-family: var(--font-style-font-family);
+  /* margin-left: 24px; */
+  margin-top: 10px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  font-size: 27px;
+}
+.box_1 p{
+  /* margin-left: 24px; */
+  margin-top: 7px;
+  font-family: var(--font-style-font-family);
+  width: 346px;
+}
+.see_more{
+  /* margin-left: 24px; */
+  margin-top: 40px;
+}
+.see_more a{
+  text-decoration:none;
+  font-family: var(--font-style-font-family);
+  font-weight: 800;
+  color: #000000;
+  letter-spacing: 3px;
+}
+.see_more .right_arrow-img{
+  height: 14px;
+  width: 14px;
+}
+.box_1 .pizza{
+  margin-top: 26px;
+}
+.box_2 .half_circle_img{
+  height: 25px;
+  width: 40px;
+  /* margin-left: 24px; */
+  margin-top: 27px;
+}
+.box_3 .half_circle_img{
+  height: 40px;
+  width: 40px;
+  /* margin-left: 24px; */
+  margin-top: 24px;
+}
+.box__3{
+  /* margin-left: 24px; */
+  margin-top: 10px;
+}
+.content_box{
+  padding-left: 2rem;
+  /* margin-left: 20px; */
+}
