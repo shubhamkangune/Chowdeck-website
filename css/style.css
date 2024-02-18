@@ -1,10 +1,13 @@
 *{
   margin: 0;
   padding: 0;
+  /* box-shadow: 0 0 0 1px red; */
+
 }
 body{
   /* background-color: rgb(255, 0, 0); */
 }
+
 nav{
   display: flex;
   justify-content: space-between;
@@ -106,17 +109,19 @@ nav ul li{
   /* background-color: #FFC501; */
   /* animation: reverse; */
   height: 65px;
+
+}
+.bike_logo img{
   animation: bike_animate 10s ease-in-out  infinite  ;
-  animation: name duration timing-function delay iteration-count direction fill-mode;
 
 }
 @keyframes bike_animate{
   0%{
-    transform:translate(100vw);
+    transform:translate(95vw);
     
   }
   100%{
-    transform:translate(-10vw);
+    transform:translate(0vw);
 
   }
 }
@@ -330,4 +335,34 @@ nav ul li{
 }
 .bottom_logo_left ul li{
   list-style: none;
+}
+.chowdeck_content{
+  width: 1248px;
+  height: 160px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.chowdeck_content .left{
+  display: flex;
+  width: 45vw;
+
+}
+.chowdeck_content .left h2{
+  font-family: var(--font-style-font-family);
+  font-weight: 800;
+  font-size: 63px;
+  color: white;
+  white-space: nowarp;
+}
+.chowdeck_content .left img{
+  transform: translate(-120px,30px);
+}
+.chowdeck_content .right{
+  width: 536px;
+  font-family: var(--font-style-font-family);
+  font-size: 24px;
+}
+.chowdeck_content .right p{
+  color: #FFFFFF;
 }
