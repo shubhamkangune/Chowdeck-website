@@ -284,13 +284,14 @@ nav ul li{
   height: 40px;
   width: 40px;
   /* margin-left: 24px; */
-  margin-top: 24px;
+  margin-top: 12px;
 }
 .box__3{
   /* margin-left: 24px; */
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 .content_box{
   padding-left: 2rem;
   /* margin-left: 20px; */
 }
+
