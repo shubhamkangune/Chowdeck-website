@@ -294,4 +294,40 @@ nav ul li{
   padding-left: 2rem;
   /* margin-left: 20px; */
 }
+.explore .top_explore{
+  background-color: var(--button--bag--color);
+  width: 100vw;
+  height: 1921.84px;
+  margin-top: 200px;
+  /* display: flex; */
+}
+.explore_categories{
+  height: 800px;
+  width: 1248px;
+  background-color: #FFC501;
+  margin: auto;
+  /* transform: scaleY(-1000px); */
+  border: 3px solid black;
+  transform: translateY(-120px);
+  border-radius: 16px;
+  text-align: center;
+  font-family: var(--font-style-font-family);
+  font-weight: 800;
+  font-size: 71px;
+  letter-spacing: -2px;
+  padding-top: 51px;
+}
+.bottom_logo_left{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
 
+}
+.bottom_logo_left ul{
+  display: flex;
+  gap: 8px;
+  /* padding-left: 15px; */
+}
+.bottom_logo_left ul li{
+  list-style: none;
+}
