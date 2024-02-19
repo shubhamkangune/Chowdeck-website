@@ -559,7 +559,61 @@ nav ul li{
 
   margin-top: 10px;
 }
+.feedback{
+  height: 772px;
+  width: 100vw;
+  display: flex;
+  gap:15px;
+  align-items: center;
+  justify-content: center;
+}
+.feedback_coloumn{
 
+}
+.comment{
+  width: 320px;
+  border: 1px solid #E5E7EB;
+  border-radius: 24px;
+  background-color: #F9FAFB;
+  padding: 15px 20px;
+  margin: 20px 0px;
+  /* gap: 20px 20px; */
+
+  
+}
+.heading_{
+  display: flex;
+  justify-content: space-between;
+  height: 56px;
+}
+.heading_ .title{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.heading_ .title img{
+  width: 56px;
+  aspect-ratio: 1;
+}
+.heading_ .title h2{
+    font-family: var(--font-style-font-family);
+    font-size: 16px;
+}
+.heading_ .title .content p{
+  font-size: 14px;
+  color: #9CA3AF;
+  font-family: var(--font-style-font-family);
+}
+
+.twitter_logo{
+  width: 40px;
+}
+.reply p{
+  font-size: 18px;
+  font-family: var(--font-style-font-family);
+  padding: 20px 0px 10px 0px;
+}
 
 
 
