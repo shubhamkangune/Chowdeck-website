@@ -816,6 +816,9 @@ nav ul li{
 
 .place-order{
   display: flex;
+  height: 800px;
+  justify-content: center;
+  gap: 20px;
 }
 .place-order .order{
   color: white;
@@ -828,6 +831,7 @@ nav ul li{
   font-weight: 800;
   font-size: 58px;
   width: 433px;
+  margin-bottom: 40px;
 }
 .place-order .order .app-button button{
   display: flex;
@@ -835,7 +839,7 @@ nav ul li{
   border-radius: 8px;
   background-color: #FFFFFF;
   gap: 10px;
-
+  margin-top: 20px;
 }
 .app-button button img{
   height: 16px;
@@ -843,10 +847,77 @@ nav ul li{
 .order-bottom-both{
   display: flex;
 }
+.order-box-left{
+  margin-top: 170px;
+}
+.order-box-right{
+  transform: translate(15px,-17px);
 
+}
+.order-box-left .cdnweb{
+  padding: 10px 20px;
+  display: flex;
+  background-color: #FFC501;
+  border: 3px solid black;
+  border-radius: 8px;
 
+}
+.order-box-left .cdnweb a{
+  text-decoration: none;
+  font-family: var(--font-style-font-family);
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: 0.45px;
+}
 
+.order-box-left p{
+  font-family: var(--font-style-font-family);
+  margin-top: 20px;
 
+}
+.order-box-left p span{
+  color: #FFC501;
+}
+.cool-stuff{
+  display: flex;
+  white-space: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+
+}
+.cool-stuff-content{
+  display: flex;
+
+}
+.cool-stuff-content h3{
+  color: white;
+  font-family: var(--font-style-font-family);
+  font-size: 47px;
+  font-weight: 800;
+  letter-spacing: -2px;
+}
+.cool-stuff-content p{
+  color: #FFEDB3;
+  padding: 37px 0px 0px 20px;
+}
+
+.practice{
+  display: flex;
+
+}
+.practice .coloumn1{
+  
+}
+.practice .coloumn1 .border{
+  height: 200px;
+  width: 500px;
+  background-color: red;
+}
+.border1{
+  border-bottom: 5px solid black;
+  border-right: px solid blanchedalmond;
+}
 
 
 
