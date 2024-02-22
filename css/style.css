@@ -7,7 +7,25 @@
 body{
   /* background-color: rgb(255, 225, 0); */
 }
-
+.responsive{
+  position: fixed;
+  z-index: 99999999;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: none;
+  place-items:center;
+  background-color: #242424;
+  color: #f2f2f2;
+  text-align: center;
+  font-family: var(--font-style-font-family);
+}
+@media screen and (max-width:800px) {
+  .responsive{
+    display: grid;
+  }
+}
 nav{
   display: flex;
   justify-content: space-between;
@@ -676,7 +694,8 @@ nav ul li{
 
 .bottom_box{
   justify-content: center;
-  display: flex;
+  /* display: flex; */
+  /* margin: auto; */
   background-color: black;
   width: 100vw;
   margin-top: 250px;
@@ -685,6 +704,7 @@ nav ul li{
 .bottom_box .faq_ans{
   width: 1248px;
   height: 800px;
+  margin: auto;
   background-color: #FFFFFF;
   border: 4px solid #000000;
   border-radius: 16px;
@@ -790,11 +810,39 @@ nav ul li{
   align-items: center;
   justify-content: center;
 }
-.bottom_box_center > *{
+/* .bottom_box_center > *{
   background-color: red;
+} */
+
+.place-order{
+  display: flex;
 }
+.place-order .order{
+  color: white;
+  width: 612px;
+  background-color: #0C513F;
+  padding: 20px;
+  border-radius: 16px;
+}
+.place-order .order h4{
+  font-weight: 800;
+  font-size: 58px;
+  width: 433px;
+}
+.place-order .order .app-button button{
+  display: flex;
+  padding: 18px 30px;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  gap: 10px;
 
-
+}
+.app-button button img{
+  height: 16px;
+}
+.order-bottom-both{
+  display: flex;
+}
 
 
 
