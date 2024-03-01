@@ -42,18 +42,22 @@ nav{
 }
 .buttons{
   display: flex;
-  width: 277.19px;
+  padding: 15px 30px;
+  /* width: 277.19px; */
   border-radius: 8px;
-  height: 48px;
-  top: 16px;
-  left: 16px;
-  background-color:var(--button--bag--color);
+  /* height: 48px; */
+  /* top: 16px; */
+  /* left: 16px; */
+    background-color:var(--button--bag--color);
   text-align: center;
   justify-content: center;
   color: var(--font--color);
   font-family: var(--font-style-font-family);
   align-items: center;
    
+}
+.logo_button{
+  border-radius: 2rem;
 }
 .logo_button p{
   display: flex;
@@ -173,9 +177,10 @@ nav ul li{
 .select1{
   background-color: #FFC501;
   height: 48px;
-  width: 8vw;
+  /* width: 8vw; */
   border-radius: 2rem;
   justify-content: center;
+  padding: 0px 15px;
   /* align-items: center; */
 }
 .try_app{
@@ -1020,5 +1025,5 @@ footer .footer-container .aarow{
   color: rgba(255, 255, 255, 0.4);
   display: flex;
   justify-content: center;
-  padding: 40px 0px;
+  padding: 4  0px 0px;
 }
