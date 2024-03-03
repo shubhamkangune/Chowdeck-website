@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  /* box-shadow: 0 0 0 1px red; */
+  box-shadow: 0 0 0 1px red;
 
 }
 
@@ -30,7 +30,7 @@ nav{
   display: flex;
   /* margin-top: 11px; */
   border-radius: 9999px;
-  padding: 111px, 23.92px, 12px, 24px;
+  /* padding: 111px, 23.92px, 12px, 24px; */
   
 }
 .buttons{
