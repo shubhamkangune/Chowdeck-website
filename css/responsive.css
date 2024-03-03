@@ -269,6 +269,15 @@ nav ul{
     align-items: flex-start;
     padding-left: 15px;
   }
+  .order-box-right > img{
+    width: 105px;
+  }
+  .feedback{
+    gap: 0;
+  }
+  .footer-list .footer-list-category{
+    gap: 0;
+  }
 }
 
 @media screen and (max-width:460px) {
@@ -281,6 +290,7 @@ nav ul{
   .bottom_box {
     margin-top: 180px;
   }
+  
 }
 
 

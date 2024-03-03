@@ -601,7 +601,7 @@ nav ul li{
   border-radius: 24px;
   background-color: #F9FAFB;
   padding: 15px 20px;
-  margin: 20px 0px;
+  margin-top: 20px;
   /* gap: 20px 20px; */
 
   
@@ -921,7 +921,7 @@ footer .footer-container a{
   color:rgba(255, 255, 255, 0.4);
   text-decoration: none;
   font-family: var(--font-style-font-family);
-  margin-left: 10px;
+  margin-left: 30px;
 }
 
 footer .footer-container{
@@ -1041,4 +1041,7 @@ footer .footer-container .aarow{
 }
 .footer-category-main{
   margin-right: 20px;
+}
+.copy-rights p{
+  font-family: var(--font-style-font-family);
 }
