@@ -1,0 +1,264 @@
+@media screen and (max-width:1160px) {
+  .bg_border_right{
+    /* border-right: 6px solid black; */
+    /* height: 42rem; */
+  }
+  .container__{
+    display: flex;
+    flex-direction: column;
+  }
+  .map_box2{
+    margin: auto;
+    margin-top: 20px;
+  }
+  ._bg_map__{
+    height: 96rem;
+  }
+  .Street_Cred{
+    margin-top: 112px;
+  }
+}
+
+@media screen and (max-width:1160px) {
+  .chowdeck_content{
+    /* flex-wrap: wrap; */
+  }
+  .chowdeck_content .right p{
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width:880px) {
+  .chowdeck_content{
+    flex-direction: column;
+    align-items: center;
+  }
+  .chowdeck_content .right p{
+    padding: 0;
+  }
+  .catogory_list ul{
+    margin-top: 150px;
+  }
+
+  .order-box-left{
+    margin: 0;
+  }
+  .place-order{
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .place-order > img{
+    width: 300px;
+  }
+}
+
+
+
+
+
+@media screen and (max-width:780px) {
+.cool-stuff{
+  white-space: unset;
+}
+.place-order .order{
+  width: auto;
+}
+.place-order .order h4
+{
+  font-size: 3rem;
+}
+.container__{
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.catogory_list ul{
+  font-size: 0.8rem;
+}
+
+.main_contant h2{
+  font-size: 60px;
+}
+nav{
+  padding: 0px 20px;
+}
+nav ul{
+  gap: 20px;
+}
+
+.logo_button{
+  padding: 5px 20px ;
+}
+.buttons{
+  padding: 10px 30px;
+}
+.try_app h2{
+  font-size: 45px;
+}
+.join_network .heading p{
+  font-size: 45px;
+}
+.explore_categories{
+  font-size: 45px;
+}
+.chowdeck_content .left h2{
+  font-size: 45px;
+}
+.chowdeck_content .left img{
+  transform: translate(-67px,12px);
+}
+.chowdeck_content .right p{
+  font-size: 20px;
+  padding: 0px 0px 0px 50px;
+}
+.stories_box{
+  flex-direction: column;
+  align-items: center;
+}
+.stories h3{
+  font-size: 43px;
+}
+.stories img{
+  height: 90px;
+}
+.stories_box .story_1 .story_content p {
+  font-size: 15px;
+}
+.message_logo a > img{
+  width: 90px;
+}
+.ans_content_margin p {
+  font-size: 16px;
+  line-height: 20px;
+}
+.ans_content_margin{
+  padding: 1.5rem;
+}
+.bottom_box .faq_ans{
+  margin: 0px 20px;
+}
+.bottom_box .faq_ans {
+  gap: 5px;
+  height: fit-content;
+}
+.bottom_box .faq_ans .faq_left{
+  width: 100%;
+}
+.ans{
+  width: 100%;
+}
+}
+/* @media screen and (max-width:650px){
+  
+} */
+@media screen and (max-width:680px) {
+  .footer-list .footer-list-category{
+    flex-direction: column;
+  }
+  .footer-links{
+    flex-direction: column;
+  }
+  footer .footer-container .aarow{
+    width: 0;
+    padding-right: 100px;
+
+  }
+  .chowdeck_content .right{
+    width: 80vw;
+  }
+  .Street_Cred{
+    margin-top: 0;
+  }
+  .ans_content_margin p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .ans .ans_content{
+    height: fit-content;
+  }
+  .faq_list ul li{
+    margin: 5px;
+    padding: 10px 5px;
+  }
+  .bottom_box .faq_ans .faq_left{
+    height: fit-content;
+  }
+  .ans{
+    height: fit-content;
+  }
+}
+@media screen and (max-width:630px) {
+  nav{
+    flex-direction: column;
+    margin-top: 0;
+    
+
+  }
+  .logo_button{
+  /* padding: 24px; */
+
+  }
+  .logo_button{
+    width: 100%;
+    margin: auto;
+    border-radius: 0px 0px 100px 100px ;
+  }
+  nav{
+    padding: 0;
+  }
+  nav ul{
+    margin-top: 15px;
+  }
+  .footer-list .footer-list-logo .logo1{
+    margin: 24px 17px;
+    width: 125px;
+  }
+  .footer-logo{
+    flex-direction: column;
+  }
+  .footer-logo p {
+  font-size: 20px;
+  }
+  .chowdeck_content .left img{
+    transform: translate(-68px, 27px);
+    height: 100px;
+  }
+
+  .costomers{
+    display: none;
+  }
+  .bottom_box .faq_ans{
+    flex-direction: column;
+  }
+  .cool-stuff{
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width:550px) {
+  .bottom_logo_left ul li img{
+    width: 40px;
+    aspect-ratio: 1;
+  }
+  .explore_categories {
+    font-size: 30px;
+  }
+  .join_network .heading p{
+    font-size: 32px;
+  }
+  .join_network .heading img {
+    width: 35px;
+  }
+  .chowdeck_content .left h2{
+    font-size: 40px;
+  }
+ 
+}
+
+
+@media screen and (max-width:780px) {
+  .bg_border_right{
+    width: 85vw;
+  }
+}
