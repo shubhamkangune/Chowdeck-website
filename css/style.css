@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  box-shadow: 0 0 0 1px red;
+  /* box-shadow: 0 0 0 1px red; */
 
 }
 
@@ -917,9 +917,11 @@ nav ul li{
 footer{
   background-color: #000000;
 }
-footer .footer-container p{
+footer .footer-container a{
   color:rgba(255, 255, 255, 0.4);
+  text-decoration: none;
   font-family: var(--font-style-font-family);
+  margin-left: 10px;
 }
 
 footer .footer-container{
@@ -957,6 +959,9 @@ footer .footer-container .aarow{
   justify-content: space-between;
   flex-direction: column;
   display: flex;
+}
+.footer-list .footer-list-logo {
+  margin-left: 20px;
 }
 .footer-list .footer-list-logo .logo1{
   margin: 45px 30px;

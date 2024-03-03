@@ -1,9 +1,5 @@
 @media screen and (max-width:1160px) {
-  .bg_border_right{
-    /* border-right: 6px solid black; */
-    /* height: 42rem; */
-  }
-  .container__{
+  container__{
     display: flex;
     flex-direction: column;
   }
@@ -20,9 +16,7 @@
 }
 
 @media screen and (max-width:1160px) {
-  .chowdeck_content{
-    /* flex-wrap: wrap; */
-  }
+  
   .chowdeck_content .right p{
     margin-top: 10px;
   }
@@ -97,6 +91,7 @@ nav ul{
 }
 .join_network .heading p{
   font-size: 45px;
+  
 }
 .explore_categories{
   font-size: 45px;
@@ -147,10 +142,19 @@ nav ul{
 .ans{
   width: 100%;
 }
+.bg_border_right{
+  width: 85vw;
+}
+._bg_map__{
+  height: 90rem;
+}
 }
 /* @media screen and (max-width:650px){
-  
+
+
 } */
+
+
 @media screen and (max-width:680px) {
   .footer-list .footer-list-category{
     flex-direction: column;
@@ -194,10 +198,7 @@ nav ul{
     
 
   }
-  .logo_button{
-  /* padding: 24px; */
 
-  }
   .logo_button{
     border-radius: 0px 0px 100px 100px ;
   }
@@ -231,6 +232,7 @@ nav ul{
   .cool-stuff{
     padding: 0;
   }
+
 }
 
 
@@ -251,12 +253,21 @@ nav ul{
   .chowdeck_content .left h2{
     font-size: 40px;
   }
- 
-}
-
-
-@media screen and (max-width:780px) {
-  .bg_border_right{
-    width: 85vw;
+  ._bg_map__ img{
+    margin-top: 35px;
+  }
+  .main_container{
+    margin-top: 110px;
+  }
+  ._bg_map__{
+    height: 81rem;
   }
 }
+
+@media screen and (max-width:460px) {
+  ._bg_map__{
+    height: 73rem;
+  }
+}
+
+
