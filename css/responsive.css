@@ -262,11 +262,24 @@ nav ul{
   ._bg_map__{
     height: 81rem;
   }
+  /* .chowdeck_content .right p{
+    padding: 0;
+  } */
+  .chowdeck_content{
+    align-items: flex-start;
+    padding-left: 15px;
+  }
 }
 
 @media screen and (max-width:460px) {
   ._bg_map__{
     height: 73rem;
+  }
+  .copy-rights p{
+    text-align: center;
+  }
+  .bottom_box {
+    margin-top: 180px;
   }
 }
 
